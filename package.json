@@ -9,7 +9,9 @@
   "license": "MIT",
   "description": "My First ERC-20 Token: Komeileum (KML)",
   "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.1.8",
     "@openzeppelin/contracts": "^5.0.2",
+    "dotenv": "^16.4.5",
     "hardhat": "^2.22.6"
   },
   "devDependencies": {
