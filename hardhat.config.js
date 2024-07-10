@@ -6,11 +6,8 @@ module.exports = {
   solidity: "0.8.24",
   networks: {
     sepolia: {
-      url: process.env.MORALIS_TESTNET_NODE,
-      accounts: [process.env.PRIVATE_KEY]  
+      url: process.env.INFURA_SEPOLIA_ENDPOINT,
+      accounts: [`0x${process.env.PRIVATE_KEY}`]  
     }
-  },
-  etherscan: {
-    apiKey: process.env.MORALIS_API_KEY
   }
 };
